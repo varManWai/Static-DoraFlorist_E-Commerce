@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- start -->
+    <title>DORA Florist</title>
+    <link rel="icon"  href="../../pictures/flower.png">
+    <script src="https://kit.fontawesome.com/9dd41de5d8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital@1&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="info_style.css">
+    <script type="text/javascript" src="info.js" async></script>
+</head>
+<body>
+    <header>
+        <a href="#"><i class="fas fa-angle-up fa-2x toTop"></i></a>
+    
+            <div id="nav">
+                <div id="promo-box">
+                        <h6 class="promo-bar">ANNIVERSARY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                        <h6 class="promo-bar" >HARI RAYA SALE : 15% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                        <h6 class="promo-bar">MOTHER'S DAY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                </div>
+                <div class="nav-header">
+                    <a href="/home/index.html" id="title">DORA FLORIST</a>
+                    <div class="dummy">
+                        <span class="dot search" onclick="searchAppear()">
+                            
+                            <i class="fas fa-search fa-3x sub-search"></i>
+                            <div>
+                                <form action="/home/WEB assignment/search.html">
+                                    <div class="search-area">
+                                        <input type="search" id="search" name="search" value="" placeholder="Search">
+                                    </div>
+                                    <input type="submit" id="search-submit">
+                                    <div ondblclick="searchDisappear()">
+                                        <i class="fas fa-times fa-5x" id="close" ></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </span>
+                        <span class="dot user" onclick="noWorking('User Login')">
+                            <i class="fas fa-user fa-3x sub-user"></i>
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <li class="nav-a"> <a href="/home/index.html" class="linker"> home</a></li>
+                        <li class="nav-a"> <a href="/home/yap zhan hong/category/special.html" class="linker">special sales</a> 
+                            <ul>
+                                <li><a href="/home/yap zhan hong/category/Annisvesary sale.html" class="sub-nav-a">anniversary</a></li>
+                                <li><a href="/home/yap zhan hong/category/Mother's day.html" class="sub-nav-a" >mother's day</a></li>
+                                <li><a href="/home/yap zhan hong/category/Hari Raya.html" class="sub-nav-a">hari raya</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">budget
+                            <ul>
+                                <li><a href="/home/LAi/budget/BUDGET 100/budget.html" class="sub-nav-a">below 100</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET 200/budget2.html" class="sub-nav-a">below 200</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET 300/budget3.html" class="sub-nav-a">below 300</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET ABOVE/budget4.html" class="sub-nav-a">300 and above</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">occasion
+                            <ul>
+                                <li><a href="/home/hongteck/html/birthday.html" class="sub-nav-a">birthday</a></li>
+                                <li><a href="/home/hongteck/html/graduation.html" class="sub-nav-a">graduation</a></li>
+                                <li><a href="/home/hongteck/html/wedding.html" class="sub-nav-a">wedding</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">special
+                            <ul>
+                                <li><a href="/home/yap zhan hong/category/Bestseller.html" class="sub-nav-a">bestseller</a></li>
+                                <li><a href="/home/yap zhan hong/category/Designer.html" class="sub-nav-a">Designer</a></li>
+                                <li><a href="/home/yap zhan hong/category/Eternity.html" class="sub-nav-a">Eternity</a></li>
+                                <li><a href="/home/yap zhan hong/category/Memento.html" class="sub-nav-a">memento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a"> <a href="/home/WEB assignment/category/category.html" class="linker">type of flower</a> 
+                            <ul>
+                                <li><a href="/home/WEB assignment/category/rose/rose.html" class="sub-nav-a">rose</a></li>
+                                <li><a href="/home/WEB assignment/category/gypsophila/gypsophila.html" class="sub-nav-a">gypsophila</a></li>
+                                <li><a href="/home/WEB assignment/category/hrdrange/hydrange.html" class="sub-nav-a">hydrangea</a></li>
+                                <li><a href="/home/WEB assignment/category/lily/lily.html" class="sub-nav-a">lily</a></li>
+                                <li><a href="/home/WEB assignment/category/lavender/lavender.html" class="sub-nav-a">lavender</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div id="title2">
+            <h1>celebrations</h1>
+        </div>
+    </header>
+
+
+    <section>
+    <div id="latest">
+        <div class="box1">
+            <div class="special-title-1">
+                <h2 class="sub-title">lastest news</h2>
+            </div>
+                <div class="container-1">
+                    <div class="sub-container-1">
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/files/bloomthis-mothers-day-gift-guide-2020-02.jpg?v=1587197833" alt="Sorry, something went wrong:3" />
+                        <h4>The Ultimate Mother’s Day Gift Guide</h4>
+                        <p>This year, Mother’s Day comes at an extraordinary time as the world grapples with a pandemic and most of us are staying home to play our part as r...</p>
+                        <a href="../CELEBRATION/information/news.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-five-love-languages-to-best-express-your-love_1_400x.jpg?v=1580803894" alt="Sorry, something went wrong:3" />
+                        <h4>Understand the Five Love Languages to Best Express Your Love</h4>
+                        <p>Falling in love is simple. Staying in love, is not so simple. Relationships require a lot of mutual understandings and adding fuel is necessary to ...</p>
+                        <a href="../CELEBRATION/information/news2.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                    <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-plan-the-best-christmas-party-2019_1_400x.jpg?v=1575445624" alt="Sorry, something went wrong:3" />
+                    <h4>From Start to End: Plan The Best Christmas Party This 2019</h4>
+                    <p>Whether you are planning to celebrate this Christmas in a big way or small way, it is never easy to plan a fabulous party. However, all parties sho.</p>
+                    <a href="../CELEBRATION/information/news3.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            
+                <div id="hidden-container">
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-flowers-as-gifts-for-your-little-one_1_400x.jpg?v=1575358169" alt="Sorry, something went wrong:3" />
+                        <h4>Flowers as Gifts for Your Little Ones</h4>
+                        <p>When we speak of giving gifts to young children, many of us think that the perfect gifts for them are either sweets or toys. How often do we hear p...</p>
+                        <a href="../CELEBRATION/information/news4.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-reasons-to-buy-yourself-flowers_1_400x.jpg?v=1575357207" alt="Sorry, something went wrong:3" />
+                        <h4>5 Reasons Why You Should Definitely Buy Yourself Flowers</h4>
+                        <p>Pamper yourself by going to a fancy restaurant, watch a movie in the cinema, book a spa weekend, hit that fitness class and even buy yourself flowe..</p>
+                        <a href="../CELEBRATION/information/news5.html" class="btn">Read More</a>
+                    </div>
+                
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-occasions-to-celebrate-other-than-valentines-day_1_400x.jpg?v=1575355932" alt="Sorry, something went wrong:3" />
+                        <h4>Occasions to Celebrate Other Than Valentine’s Day</h4>
+                        <p>There are heaps of other fantastic celebrations worth acknowledging other than Valentine's Day. Some come from other cultures and some were created.</p>
+                        <a href="../CELEBRATION/information/news6.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_149b0c9a-6456-4650-8c67-3b55033f09c6_400x.jpg?v=1561449719" alt="Sorry, something went wrong:3" />
+                        <h4>Happy Deepavali! Flowers as Bright as The Festival of Light</h4>
+                        <p>Deepavali or also known as ‘Diwali’ is a festival of lights celebrated by Hindus, Sikhs, and Jains all over the world. If you're in need of a speci...</p>
+                        <a href="../CELEBRATION/information/news7.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_4978ce6a-20cc-49dc-a74e-e282e2315afb_400x.jpg?v=1541145512" alt="Sorry, something went wrong:3" />
+                        <h4>You’ve Got a Friend in Me</h4>
+                        <p>Happy International Friendship Day, darlings! Thinking of your bestie? Tell her how much you love and support her with our bestselling flowers for ...</p>
+                        <a href="../CELEBRATION/information/news8.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/02_0f023040-d2a0-4422-817a-b72e65611260_400x.jpg?v=1561436299" alt="Sorry, something went wrong:3" />
+                        <h4>Pretty in Pink for Pink Day</h4>
+                        <p>Millennial pink, hot pink, neon pink, and other shades of pink, are represented as compassion, nurturing and love. In colour psychology, pink is re..</p>
+                        <a href="../CELEBRATION/information/news9.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="latest-btn">
+            <button  onclick="myFunction2()">More..</button>
+        </div>
+
+        
+    </div>
+    </section>
+
+    <br />
+    <hr />
+    <br />  
+
+    <section>
+    <div class="special-title-2">
+            <h6 class="sub-pre-title">Previous news</h6>
+    </div>
+    <div id="previous">
+        
+        <div class="box1">
+            
+        <div class="container-2">
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-flowers-as-gifts-for-your-little-one_1_400x.jpg?v=1575358169" alt="Sorry, something went wrong:3" />
+                <h4>Flowers as Gifts for Your Little Ones</h4>
+                <p>When we speak of giving gifts to young children, many of us think that the perfect gifts for them are either sweets or toys. How often do we hear p...</p>
+                <a href="../CELEBRATION/information/news4.html" class="btn">Read More</a>
+            </div>
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-reasons-to-buy-yourself-flowers_1_400x.jpg?v=1575357207" alt="Sorry, something went wrong:3" />
+                <h4>5 Reasons Why You Should Definitely Buy Yourself Flowers</h4>
+                <p>Pamper yourself by going to a fancy restaurant, watch a movie in the cinema, book a spa weekend, hit that fitness class and even buy yourself flowe..</p>
+                <a href="../CELEBRATION/information/news5.html" class="btn">Read More</a>
+            </div>
+        
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-occasions-to-celebrate-other-than-valentines-day_1_400x.jpg?v=1575355932" alt="Sorry, something went wrong:3" />
+                <h4>Occasions to Celebrate Other Than Valentine’s Day</h4>
+                <p>There are heaps of other fantastic celebrations worth acknowledging other than Valentine's Day. Some come from other cultures and some were created.</p>
+                <a href="../CELEBRATION/information/news6.html" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_149b0c9a-6456-4650-8c67-3b55033f09c6_400x.jpg?v=1561449719" alt="Sorry, something went wrong:3" />
+                <h4>Happy Deepavali! Flowers as Bright as The Festival of Light</h4>
+                <p>Deepavali or also known as ‘Diwali’ is a festival of lights celebrated by Hindus, Sikhs, and Jains all over the world. If you're in need of a speci...</p>
+                <a href="../CELEBRATION/information/news7.html" class="btn">Read More</a>
+            </div>
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_4978ce6a-20cc-49dc-a74e-e282e2315afb_400x.jpg?v=1541145512" alt="Sorry, something went wrong:3" />
+                <h4>You’ve Got a Friend in Me</h4>
+                <p>Happy International Friendship Day, darlings! Thinking of your bestie? Tell her how much you love and support her with our bestselling flowers for ...</p>
+                <a href="../CELEBRATION/information/news8.html" class="btn">Read More</a>
+            </div>
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/02_0f023040-d2a0-4422-817a-b72e65611260_400x.jpg?v=1561436299" alt="Sorry, something went wrong:3" />
+                <h4>Pretty in Pink for Pink Day</h4>
+                <p>Millennial pink, hot pink, neon pink, and other shades of pink, are represented as compassion, nurturing and love. In colour psychology, pink is re..</p>
+                <a href="../CELEBRATION/information/news9.html" class="btn">Read More</a>
+            </div>
+        </div>
+        </div>
+    </div>  
+    </section>
+    
+    <hr />
+    
+    <section>
+        <div class="big-box-2">
+        <div class=" box2">
+        <h4 class="sub-special-title">Spaecial</h4>
+            <div class="special-container">
+                <div class="container-c">
+                    <img src="https://cdn.shopify.com/s/files/1/0781/4423/files/01_bae95a36-b839-48aa-b8d3-df33c72b9a5b.jpg?v=1559532173" alt="" width="100%">
+                </div>
+                <div class="container-c">
+                    <h3 class="">The Best Gift Ideas For Dad On Father's Day</h3>
+                    <ul>
+                        <li>Eternity Sapphire</li>
+                        <li>Festivity</li>
+                        <li>Darlene | BloomThis</li>
+                        <li>Ryan RFID Large Coin Pocket Bifold Wallet | FOSSIL</li>
+                        <li>Fitbit Ionic Smartwatch | Fitbit</li>
+                        <li>Double Edge Safety Razor | Frangipani Shop</li>
+                        <li>Black Square Polarized Sunglasses | Hugo Boss</li>
+                    </ul>
+                    <a href="../CELEBRATION/information/news10.html" id="special">more</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="knowledge">
+        <h3 class="sub-fact">learn</h1>
+        <h1 class="fact">Flowers knowledge</h1>
+
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">     
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Sorry, something went wrong:3" usemap="#flowers" />
+                            <map name="flowers">
+                                <area  shape="circle" coords="250,180,100" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Rose" >
+                            </map>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/1272574/pexels-photo-1272574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Sorry, something went wrong:3"usemap="#flowers2" />
+                            <map name="flowers2">
+                                <area  shape="rect" coords="0,100,500,500" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Lavandula" >
+                            </map>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/414510/pexels-photo-414510.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Sorry, something went wrong:3"  usemap="#flowers3"/>
+                            <map name="flowers3">
+                                <area  shape="circle" coords="250,180,125" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Hydrangea" >
+                            </map>
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <img src="https://images.pexels.com/photos/56905/pexels-photo-56905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" usemap="#flowers4" >
+                           <map name="flowers4">
+                                <area  shape="circle" coords="250,150,125" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Lilium" >   
+                            </map>
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-box">
+            
+            <div class="footer-1">
+                <h3 class="footer-title">about us</h3>
+                <span class="footer-link">
+                    <a href="/home/WEB assignment/about.html">about</a>
+                    <a href="/home/WEB assignment/carrer.html">career</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Info</h3>
+                <span class="footer-link">
+                        <a href="/home/LAi/info/News/info.html">News</a>
+                        <a href="/home/LAi/info/GUIDE/info.html">guides</a>
+                        <a href="/home/LAi/info/CELEBRATION/info.html">celebrations</a>
+                        <a href="/home/LAi/info/FLOWER FACT/info.html">flower fact</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Help</h3>
+                <span class="footer-link">
+                    <a href="/home/hongteck/html/help.html">Contact</a>
+                    <a href="/home/hongteck/html/faq.html">FAQs</a>
+                    <a href="/home/hongteck/html/delivery.html">Delivery</a>
+                    <a href="/home/hongteck/html/trackorder.html">Tarck Order</a>
+                </span>
+            </div>
+            <div class="footer-1">
+                <h3 class="footer-title">Newsletter</h3>
+                <form action="">
+                    <label for="email">Sign up for news and exclusive deals & get 10% off your first order</label>
+                    <div><input type="email" name="email" id="email" placeholder="Enter your email address"></div>
+                    <div><input type="submit" value="Subscribe" id="sub"></div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="contact-box">
+            <p class="contact">Email: <a href="mailto:laimw-wm19@gmail.com"> Contact@DoraFlorist</a></p>
+            <p class="contact">Phone:<span class="phone">+60123456789</span></p>
+            <p class="contact">Chat:<a href=""> Talk to Us</a></p>
+            <p class="copyRight">© 2020 DORA FLORIST. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-style: oblique;    
+    font-weight: bolder;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin-left:  0%;
+    margin-right: 0%;
+    background-color:rgb(255, 222, 200);
+    margin-top: 0%;
+}
+.picture{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: block;
+    float: left;
+    margin-top: 0;
+    border: solid black 10px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.title{
+    text-align: left;
+    display: block;
+    font-style: inherit;
+}
+
+.a{
+    border: solid cyan;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+
+}
+
+.order .bear{
+    display: flex;
+}
+form{
+    margin-top: 3%;
+    margin-left: 45%;
+    padding-left: 1%;
+    margin-right: 10%;
+
+}
+.a:checked +.b> p{
+  background-color: rgb(253, 128, 186);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+input{
+    display: none;
+}
+p{
+    margin:0px;
+}
+.shipping{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 35%;
+    font-weight: 100;
+    font-size: x-small;
+    color: rgb(163, 163, 163);
+}
+button{
+    background-color: rgb(255, 206, 100);
+    width: 70%;
+    height: 5%;
+    border: none;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bolder;
+    margin-left: 15%;
+    
+}
+button:hover{
+    background-color: rgb(255, 190, 255);
+
+}
+.cart{
+    text-decoration: none;
+}
+.word{
+    font-style: italic;
+    font-size: x-small;
+}
+.down{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: 100;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+}
+.pic{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

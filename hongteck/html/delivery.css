@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+}
+section h1{
+    text-align: center;
+    padding: 35px;
+    background-color: #ffcc99;
+    margin-block-start: -8px;
+    margin-block-end: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+}
+section h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+}
+section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 30px;
+}
+section table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width:73%;
+    margin-left: 250px;
+}
+section tr:nth-child(seven){
+    background-color: #dddddd;
+}
+section td,th{
+    border:3px solid #ffcc99;
+    text-align: left;
+    padding:8px;
+}
+section a[href^="tel"]{
+    color: #ffcc99;
+}
+section a[href^="mailto"]{
+    color: #ffcc99;
+}
+

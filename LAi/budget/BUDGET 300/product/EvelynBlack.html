@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+
+
+
+        <title>DORA Florist</title>
+        <link rel="icon"  href="../../../pictures/flower.png">
+        <script src="https://kit.fontawesome.com/9dd41de5d8.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital@1&display=swap" rel="stylesheet">
+    
+    
+        <link rel="stylesheet" href="product.css">
+        <script type="text/javascript" src="product.js" async></script>
+    </head>
+    <body>
+        <header>
+            <a href="#"><i class="fas fa-angle-up fa-2x toTop"></i></a>
+    
+            
+                <div id="nav">
+                    <div id="promo-box">
+                            <h6 class="promo-bar">ANNIVERSARY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                            <h6 class="promo-bar" >HARI RAYA SALE : 15% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                            <h6 class="promo-bar">MOTHER'S DAY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                    </div>
+                    <div class="nav-header">
+                        <a href="/home/index.html" id="title">DORA FLORIST</a>
+                        <div class="dummy">
+                            <span class="dot search" onclick="searchAppear()">
+                                
+                                <i class="fas fa-search fa-3x sub-search"></i>
+                                <div>
+                                    <form action="/home/WEB assignment/search.html">
+                                        <div class="search-area">
+                                            <input type="search" id="search" name="search" value="" placeholder="Search">
+                                        </div>
+                                        <input type="submit" id="search-submit">
+                                        <div ondblclick="searchDisappear()">
+                                            <i class="fas fa-times fa-5x" id="close" ></i>
+                                        </div>
+                                    </form>
+                                </div>
+                            </span>
+                            <span class="dot user" onclick="noWorking('User Login')">
+                                <i class="fas fa-user fa-3x sub-user"></i>
+                            </span>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-bar">
+                        <ul>
+                            <li class="nav-a"> <a href="/home/index.html" class="linker"> home</a></li>
+                            <li class="nav-a"> <a href="/home/yap zhan hong/category/special.html" class="linker">special sales</a> 
+                                <ul>
+                                    <li><a href="/home/yap zhan hong/category/Annisvesary sale.html" class="sub-nav-a">anniversary</a></li>
+                                    <li><a href="/home/yap zhan hong/category/Mother's day.html" class="sub-nav-a" >mother's day</a></li>
+                                    <li><a href="/home/yap zhan hong/category/Hari Raya.html" class="sub-nav-a">hari raya</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-a">budget
+                                <ul>
+                                    <li><a href="/home/LAi/budget/BUDGET 100/budget.html" class="sub-nav-a">below 100</a></li>
+                                    <li><a href="/home/LAi/budget/BUDGET 200/budget2.html" class="sub-nav-a">below 200</a></li>
+                                    <li><a href="/home/LAi/budget/BUDGET 300/budget3.html" class="sub-nav-a">below 300</a></li>
+                                    <li><a href="/home/LAi/budget/BUDGET ABOVE/budget4.html" class="sub-nav-a">300 and above</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-a">occasion
+                                <ul>
+                                    <li><a href="/home/hongteck/html/birthday.html" class="sub-nav-a">birthday</a></li>
+                                    <li><a href="/home/hongteck/html/graduation.html" class="sub-nav-a">graduation</a></li>
+                                    <li><a href="/home/hongteck/html/wedding.html" class="sub-nav-a">wedding</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-a">special
+                                <ul>
+                                    <li><a href="/home/yap zhan hong/category/Bestseller.html" class="sub-nav-a">bestseller</a></li>
+                                    <li><a href="/home/yap zhan hong/category/Designer.html" class="sub-nav-a">Designer</a></li>
+                                    <li><a href="/home/yap zhan hong/category/Eternity.html" class="sub-nav-a">Eternity</a></li>
+                                    <li><a href="/home/yap zhan hong/category/Memento.html" class="sub-nav-a">memento</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-a"> <a href="/home/WEB assignment/category/category.html" class="linker">type of flower</a> 
+                                <ul>
+                                    <li><a href="/home/WEB assignment/category/rose/rose.html" class="sub-nav-a">rose</a></li>
+                                    <li><a href="/home/WEB assignment/category/gypsophila/gypsophila.html" class="sub-nav-a">gypsophila</a></li>
+                                    <li><a href="/home/WEB assignment/category/hrdrange/hydrange.html" class="sub-nav-a">hydrangea</a></li>
+                                    <li><a href="/home/WEB assignment/category/lily/lily.html" class="sub-nav-a">lily</a></li>
+                                    <li><a href="/home/WEB assignment/category/lavender/lavender.html" class="sub-nav-a">lavender</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            <div id="header">
+                
+            </div>
+        </header>
+
+
+
+       <section>
+        <div class="product-area">
+            <div class="img-area">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-evelyn-black-1080x1080-01_700x.jpg?v=1571562321" alt="flower image  ">
+            </div>
+            <div class="info-area">
+                <div class="info-detail">
+                    <h1>Evelyn Black</h1>
+                </div>
+                <div class="info-detail price">
+                    <p>RM99</p>
+                </div>
+                <div class="info-detail">
+                    <p>Classic, timeless and trendy, this bouquet of stunning red roses is sure to work its charm and make hearts flutter. Love, friendship or just because; she's got it all and is sure to make an impression that lasts.</p>
+                </div>
+                <div class="info-detail">
+                    <h3>size</h3>
+                    <p>28 cm (L) x 24 cm (W) x 50 cm (H)</p>
+                </div>
+                <div class="info-detail">
+                    <h3>stems include</h3>
+                    <p>Red Rose (3-5 stalks), White PIng Pong (1 stalk), Purple Caspia & Carnation Leaf</p>
+                </div>
+                <div class="info-detail">
+                    <h3>PERFECT FOR</h3>
+                    <p>Birthday, Friendship, Just Because, Graduation, Love</p>
+                </div>
+                <button class="add-to-cart" onclick="noWorking('Add to Cart')">add to cart</button>
+            </div>
+        </div>
+
+
+        <div id="flower">
+            <div id="title-box" onclick="onclickX('flower-care','title-box')">
+                <h1 class="title">Bouquet Flower Care</h1>
+                <p ><i class="fas fa-plus fa-2x title-btn"></i></p>
+            </div>
+        <div id="flower-care">
+            <div class="flower-care-info">
+                <h1>Bouquet Flower Care</h1>
+                <p>Want to keep your flowers pretty? Here's some tips and instructions from our flower experts to care for your BloomThis flower bouquet.</p>
+            </div>
+            <img src="https://ucarecdn.com/281644f3-3052-4c58-9c8a-7f081ef40634/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="flower image">
+            
+            <div class="flower-care-info">
+                <h3>Cut the stems at a slant to increase the absorption of water. This will give better hydration to your blooms.</h3>
+            </div>
+
+            <div class="flower-care-info">
+                <h6>Rose Alba</h6>
+                <p>Floral Artisan</p>
+            </div>
+            <div class="flower-care-info">
+                <div class="flower-methods">
+                    <h1>1. Get a clean vase</h1>
+                    <p>The cleaner your vase, the lesser the bacteria and the longer your flowers bloom. Of course, you can also use a jar, a mug, a teapot or anything that you fancy.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>2. Fill clean water</h1>
+                    <p>Fill the vase with cold tap water. Too much water can speed the decay of the stems, and too little will hamper hydration. We suggest filling your vase up to two-thirds full.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>3. Add flower food</h1>
+                    <p>Add flower food into the vase from the sachet. Flower food can increase your flower life up to 60%. This is because it contains all the nutrients that your flowers need. That said, remember to keep your flower food in a safe place and out of reach of babies, children and pets.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>4. Trim flower stems</h1>
+                    <p>Cut approximately 2 cm off each stem at a slant (and repeat every few days). Flower stems will brown and decay which will hamper hydration. By snipping off the bottom few centimeters, your flowers are hydrated better and last longer.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>5. Prune lower leaves</h1>
+                    <p>Remove all the lower leaves of your flower stems. Make sure there are no leaves in the water because they decay much faster underwater. Decaying leaves will create bacteria that will spoil your flowers.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>6. Arrange in your vase</h1>
+                    <p>After you've trimmed the stems and pruned the leaves, arrange them in your filled vase however you like. Here's a pro tip: place taller stems at the back and the short ones at the front.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>7. Place in a cool area</h1>
+                    <p>Place your flowers in a cool room or shaded area. Avoid direct air-conditioning, direct sunlight, extreme heat, dust and ripening fruit. All of these conditions may make your flowers wilt faster.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>8. Change water daily</h1>
+                    <p>Change the water in your vase when the water becomes discoloured or murky. Dirty water will block the stems and hamper hydration. The water in your vase should always be crystal clear. Again, use cold tap water.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>9. Remove wilting petals</h1>
+                    <p>When a flower begins to wilt, remove the petals or the whole flower from the bouquet. Flowers bloom and wilt at different times. Removing wilted flowers will help to avoid the spread of bacteria to the other flowers.</p>
+                </div>
+                <div class="flower-methods">
+                    <h1>10. Mist flowers daily</h1>
+                    <p>Spray or spritz your flowers with clean tap water once a day to give it additional hydration. Flowers can absorb water from places other than the base of its stems. To do this right, use a bottle with a fine mist setting and spray from 6 inches to 1 foot away from the flowers to ensure an even coverage.</p>
+                </div>
+            </div>
+            <div class="flower-care-info">
+                <h1>Our Bestsellers</h1>
+                <p>Send a gift with popular picks from our flower bouquet collection.</p>
+            </div>
+        </div>
+        </div>
+        <div id="delivery">
+            <div id="title-box-2" onclick="onclickX('delivery-datail','title-box-2')">
+                <h1 class="title">delivery information</h1>
+                <p ><i class="fas fa-plus fa-2x title-btn"></i></p>
+            </div>
+            <div id="delivery-datail">
+                <div class="delivery-detail-info">
+                <h3>Covid-19 Update</h3>
+                <p>Next-day deliveries are available for orders made by 5 pm. Deliveries are not available in Penang and all hospitals & the following areas in Selangor for the duration of the MCO:</p>
+                </div>
+                <div class="delivery-detail-info">
+                    <ul>
+                        <li>All hospitals</li>
+                        <li>Hulu Langat</li>
+                        <li>Rawang</li>
+                        <li>Klang</li>
+                        <li>Port Klang</li>
+                        <li>Pulau Indah</li>
+                        <li>Kapar</li>
+                        <li>Puncak Alam</li>
+                        <li>Teluk Panglima Garang</li>
+                        <li>Jenjarom</li>
+                        <li>Banting</li>
+                        <li>Sepang</li>
+                        <li>Kota Warisan</li>
+                        <li>Semenyih</li>
+                        <li>Dengkil</li>
+                        <li>Bangi</li>
+                    </ul>
+                </div>
+                <div class="delivery-detail-info">
+                    <p>Next-day deliveries are available from Mon - Sun for orders made by 5 pm within Kuala Lumpur and Selangor while our subscription boxes are delivered weekly on Thursdays. Our standard delivery services are completed between 10 am - 6 pm. Unfortunately, time-specific deliveries are currently unavailable to ensure fairness to all our customers and maintain efficiency in our operations. Deliveries are available for any addresses within Kuala Lumpur, Selangor, Penang and Johor Bahru. However there is  an additional surcharge for delivery in Penang (Mainland) based on your delivery area that will automatically shown during checkout.</p>
+                </div>
+                <div class="delivery-detail-info">
+                    <p>We recommend having the flowers delivered to an address where you or your recipient will be present on your delivery date to ensure flower freshness and avoid any unforeseen circumstances. Should you or your recipient fail to receive the flowers, a re-delivery service is available at an additional cost depending on your recipient's location. Our special delivery team will deliver your flowers by hand.</p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+
+
+       <footer class="footer">
+        <div class="footer-box">
+            
+            <div class="footer-1">
+                <h3 class="footer-title">about us</h3>
+                <span class="footer-link">
+                    <a href="/home/WEB assignment/about.html">about</a>
+                    <a href="/home/WEB assignment/carrer.html">career</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Info</h3>
+                <span class="footer-link">
+                        <a href="/home/LAi/info/News/info.html">News</a>
+                        <a href="/home/LAi/info/GUIDE/info.html">guides</a>
+                        <a href="/home/LAi/info/CELEBRATION/info.html">celebrations</a>
+                        <a href="/home/LAi/info/FLOWER FACT/info.html">flower fact</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Help</h3>
+                <span class="footer-link">
+                    <a href="/home/hongteck/html/help.html">Contact</a>
+                    <a href="/home/hongteck/html/faq.html">FAQs</a>
+                    <a href="/home/hongteck/html/delivery.html">Delivery</a>
+                    <a href="/home/hongteck/html/trackorder.html">Tarck Order</a>
+                </span>
+            </div>
+            <div class="footer-1">
+                <h3 class="footer-title">Newsletter</h3>
+                <form action="">
+                    <label for="email">Sign up for news and exclusive deals & get 10% off your first order</label>
+                    <div><input type="email" name="email" id="email" placeholder="Enter your email address"></div>
+                    <div><input type="submit" value="Subscribe" id="sub"></div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="contact-box">
+            <p class="contact">Email: <a href="mailto:laimw-wm19@gmail.com"> Contact@DoraFlorist</a></p>
+            <p class="contact">Phone:<span class="phone">+60123456789</span></p>
+            <p class="contact">Chat:<a href=""> Talk to Us</a></p>
+            <p class="copyRight">© 2020 DORA FLORIST. All Rights Reserved.</p>
+        </div>
+    </footer>
+    </body>
+</html>

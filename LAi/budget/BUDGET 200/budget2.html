@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DORA Florist</title>
+    <link rel="icon"  href="../../pictures/flower.png">
+    <script src="https://kit.fontawesome.com/9dd41de5d8.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../BUDGETstyle/budget_style.css">
+    <script src="../BUDGETstyle/budget.js" async></script>
+</head>
+<body>
+
+    <a href="#"><i class="fas fa-angle-up fa-2x toTop"></i></a>
+
+    <header >
+            <div id="nav">
+                <div id="promo-box">
+                        <h6 class="promo-bar">ANNIVERSARY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                        <h6 class="promo-bar" >HARI RAYA SALE : 15% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                        <h6 class="promo-bar">MOTHER'S DAY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                </div>
+                <div class="nav-header">
+                    <a href="/home/index.html" id="title">DORA FLORIST</a>
+                    <div class="dummy">
+                        <span class="dot search" onclick="searchAppear()">
+                            
+                            <i class="fas fa-search fa-3x sub-search"></i>
+                            <div>
+                                <form action="/home/WEB assignment/search.html">
+                                    <div class="search-area">
+                                        <input type="search" id="search" name="search" value="" placeholder="Search">
+                                    </div>
+                                    <input type="submit" id="search-submit">
+                                    <div ondblclick="searchDisappear()">
+                                        <i class="fas fa-times fa-5x" id="close" ></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </span>
+                        <span class="dot user" onclick="noWorking('User Login')">
+                            <i class="fas fa-user fa-3x sub-user"></i>
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <li class="nav-a"> <a href="/home/index.html" class="linker"> home</a></li>
+                        <li class="nav-a"> <a href="/home/yap zhan hong/category/special.html" class="linker">special sales</a> 
+                            <ul>
+                                <li><a href="/home/yap zhan hong/category/Annisvesary sale.html" class="sub-nav-a">anniversary</a></li>
+                                <li><a href="/home/yap zhan hong/category/Mother's day.html" class="sub-nav-a" >mother's day</a></li>
+                                <li><a href="/home/yap zhan hong/category/Hari Raya.html" class="sub-nav-a">hari raya</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">budget
+                            <ul>
+                                <li><a href="/home/LAi/budget/BUDGET 100/budget.html" class="sub-nav-a">below 100</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET 200/budget2.html" class="sub-nav-a">below 200</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET 300/budget3.html" class="sub-nav-a">below 300</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET ABOVE/budget4.html" class="sub-nav-a">300 and above</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">occasion
+                            <ul>
+                                <li><a href="/home/hongteck/html/birthday.html" class="sub-nav-a">birthday</a></li>
+                                <li><a href="/home/hongteck/html/graduation.html" class="sub-nav-a">graduation</a></li>
+                                <li><a href="/home/hongteck/html/wedding.html" class="sub-nav-a">wedding</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">special
+                            <ul>
+                                <li><a href="/home/yap zhan hong/category/Bestseller.html" class="sub-nav-a">bestseller</a></li>
+                                <li><a href="/home/yap zhan hong/category/Designer.html" class="sub-nav-a">Designer</a></li>
+                                <li><a href="/home/yap zhan hong/category/Eternity.html" class="sub-nav-a">Eternity</a></li>
+                                <li><a href="/home/yap zhan hong/category/Memento.html" class="sub-nav-a">memento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a"> <a href="/home/WEB assignment/category/category.html" class="linker">type of flower</a> 
+                            <ul>
+                                <li><a href="/home/WEB assignment/category/rose/rose.html" class="sub-nav-a">rose</a></li>
+                                <li><a href="/home/WEB assignment/category/gypsophila/gypsophila.html" class="sub-nav-a">gypsophila</a></li>
+                                <li><a href="/home/WEB assignment/category/hrdrange/hydrange.html" class="sub-nav-a">hydrangea</a></li>
+                                <li><a href="/home/WEB assignment/category/lily/lily.html" class="sub-nav-a">lily</a></li>
+                                <li><a href="/home/WEB assignment/category/lavender/lavender.html" class="sub-nav-a">lavender</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div class="title">
+            <h2 >Pretty Flowers Below RM 100</h2>
+            <p>Need flowers to cheer someone up? Get KL's most stylish flower bouquets & boxes from under RM 100. Comes with free flower delivery.</p>
+        </div>
+    </header>
+
+
+    <section class="box2">
+    <div class="product-area">
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-isabella-black-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/IsabellaBlack.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-isabella-black-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/IsabellaBlack.html"><p class="topic">Isabella Black</p></a>
+                <p class="price">RM129</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-audrey-black-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/AudreyBlack.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-audrey-black-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status-display">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/AudreyBlack.html"><p class="topic">Audrey Black</p></a>
+                <p class="price">RM189</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-violet-black-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/VioletBlack.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-violet-black-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/VioletBlack.html"><p class="topic">Violet Black</p></a>
+                <p class="price">RM199</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-alexa-black-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/AlexaBlack.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-alexa-black-1080x1080-05_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/AlexaBlack.html"><p class="topic">Alexa Black</p></a>
+                <p class="price">RM199</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-serilda-07_700x.jpg?v=1572316353" alt="" class="img">
+                <a href="./product/Serilda.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-serilda-02_700x.jpg?v=1572316353" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/Serilda.html"><p class="topic">Serilda</p></a>
+                <p class="price">RM199</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-bella-07_700x.jpg?v=1572315740" alt="" class="img">
+                <a href="./product/Bella.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-bella-02_700x.jpg?v=1572315740" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/Bella.html"><p class="topic">Bella</p></a>
+                <p class="price">RM186</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-lilian-07_700x.jpg?v=1572316412" alt="" class="img">
+                <a href="./product/Lilian.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-lilian-02_700x.jpg?v=1572316412" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/Lilian.html"><p class="topic">Lilian</p></a>
+                <p class="price">RM173</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-zoey-07_700x.jpg?v=1572316512" alt="" class="img">
+                <a href="./product/Zoey.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-zoey-02_700x.jpg?v=1572316512" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/Zoey.html"><p class="topic">Zoey</p></a>
+                <p class="price">RM189</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-mila-07_700x.jpg?v=1572316158" alt="" class="img">
+                <a href="./product/Mila.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-dried-mooi-mila-02_700x.jpg?v=1572316158" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/Mila.html"><p class="topic">Mila</p></a>
+                <p class="price">RM199</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-evelyn-black-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/EvelynBlack.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-evelyn-black-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status-display">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/EvelynBlack.html"><p class="topic">Evelyn Black</p></a>
+                <p class="price">RM159</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-stella-black-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/StellaBlack.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-stella-black-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/StellaBlack.html"><p class="topic">Stella Black</p></a>
+                <p class="price">RM149</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-camila-black-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/CamilaBlack.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-camila-black-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/CamilaBlack.html"><p class="topic">Camila Black</p></a>
+                <p class="price">RM109</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-esther-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/EstherWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-esther-white-1080x1080-05_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/EstherWhite.html"><p class="topic">Esther White</p></a>
+                <p class="price">RM159</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-isabella-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/IsabellaWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-isabella-white-1080x1080-05_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status-display">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/IsabellaWhite.html"><p class="topic">Isabella White</p></a>
+                <p class="price">RM189</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-audrey-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/AudreyWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-audrey-white-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/AudreyWhite.html"><p class="topic">Audrey White</p></a>
+                <p class="price">RM109</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-madelyn-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/MadelynWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-madelyn-white-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/MadelynWhite.html"><p class="topic">Madelyn White</p></a>
+                <p class="price">RM189</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-sofia-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/SofiaWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-sofia-white-1080x1080-05_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/SofiaWhite.html"><p class="topic">Sofia White</p></a>
+                <p class="price">RM179</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-camila-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/CamilaWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-camila-white-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/CamilaWhite.html"><p class="topic">Camila White</p></a>
+                <p class="price">RM109</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-evelyn-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/EstherWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-evelyn-white-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/CamilaWhite.html"><p class="topic">Evelyn White</p></a>
+                <p class="price">RM179</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-violet-white-1080x1080-01_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/VioletWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-violet-white-1080x1080-04_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/VioletWhite.html"><p class="topic">Violet White</p></a>
+                <p class="price">RM179</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-sadie-white-1080x1080-01_fc3937f3-a6be-462d-9963-cdf2a10dde7d_700x.jpg?v=1571562321" alt="" class="img">
+                <a href="./product/SadieWhite.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-bouquet-sadie-white-1080x1080-04_68f42f95-edd2-467c-8a86-e89eda916a83_700x.jpg?v=1571562321" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/SadieWhite.html"><p class="topic">Sadie White</p></a>
+                <p class="price">RM199</p>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product-img">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-mini-bouquet-aella-1080x1080-01_700x.jpg?v=1582512039" alt="" class="img">
+                <a href="./product/Aella.html"><img class="img2" src="https://cdn.shopify.com/s/files/1/0781/4423/products/bloomthis-mini-bouquet-aella-1080x1080-02_700x.jpg?v=1582512039" alt="" ></a>
+                <p class="status">sold out</p>
+            </div>
+            <div class="product-detail">
+                <a href="./product/Aella.html"><p class="topic">Aella</p></a>
+                <p class="price">RM199</p>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-box">
+            
+            <div class="footer-1">
+                <h3 class="footer-title">about us</h3>
+                <span class="footer-link">
+                    <a href="/home/WEB assignment/about.html">about</a>
+                    <a href="/home/WEB assignment/carrer.html">career</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Info</h3>
+                <span class="footer-link">
+                        <a href="/home/LAi/info/News/info.html">News</a>
+                        <a href="/home/LAi/info/GUIDE/info.html">guides</a>
+                        <a href="/home/LAi/info/CELEBRATION/info.html">celebrations</a>
+                        <a href="/home/LAi/info/FLOWER FACT/info.html">flower fact</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Help</h3>
+                <span class="footer-link">
+                    <a href="/home/hongteck/html/help.html">Contact</a>
+                    <a href="/home/hongteck/html/faq.html">FAQs</a>
+                    <a href="/home/hongteck/html/delivery.html">Delivery</a>
+                    <a href="/home/hongteck/html/trackorder.html">Tarck Order</a>
+                </span>
+            </div>
+            <div class="footer-1">
+                <h3 class="footer-title">Newsletter</h3>
+                <form action="">
+                    <label for="email">Sign up for news and exclusive deals & get 10% off your first order</label>
+                    <div><input type="email" name="email" id="email" placeholder="Enter your email address"></div>
+                    <div><input type="submit" value="Subscribe" id="sub"></div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="contact-box">
+            <p class="contact">Email: <a href="mailto:laimw-wm19@gmail.com"> Contact@DoraFlorist</a></p>
+            <p class="contact">Phone:<span class="phone">+60123456789</span></p>
+            <p class="contact">Chat:<a href=""> Talk to Us</a></p>
+            <p class="copyRight">© 2020 DORA FLORIST. All Rights Reserved.</p>
+        </div>
+    </footer>
+</html>

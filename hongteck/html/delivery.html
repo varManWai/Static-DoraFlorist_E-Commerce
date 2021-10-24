@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="delivery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9dd41de5d8.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="nav.js"></script>
+</head> 
+<body>
+    <header>
+        <a href="#"><i class="fas fa-angle-up fa-2x toTop"></i></a>
+    
+    <section class="header">
+    <div id="nav">
+        <div id="promo-box">
+                <h6 class="promo-bar">ANNIVERSARY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                <h6 class="promo-bar" >HARI RAYA SALE : 15% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                <h6 class="promo-bar">MOTHER'S DAY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+        </div>
+        <div class="nav-header">
+            <a href="/home/index.html" id="title">DORA FLORIST</a>
+            <div class="dummy">
+                <span class="dot search" onclick="searchAppear()">
+                    
+                    <i class="fas fa-search fa-3x sub-search"></i>
+                    <div>
+                        <form action="/home/WEB assignment/search.html">
+                            <div class="search-area">
+                                <input type="search" id="search" name="search" value="" placeholder="Search">
+                            </div>
+                            <input type="submit" id="search-submit">
+                            <div ondblclick="searchDisappear()">
+                                <i class="fas fa-times fa-5x" id="close" ></i>
+                            </div>
+                        </form>
+                    </div>
+                </span>
+                <span class="dot user" onclick="noWorking('User Login')">
+                    <i class="fas fa-user fa-3x sub-user"></i>
+                </span>
+                
+            </div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li class="nav-a"> <a href="/home/index.html" class="linker"> home</a></li>
+                <li class="nav-a"> <a href="/home/yap zhan hong/category/special.html" class="linker">special sales</a> 
+                    <ul>
+                        <li><a href="/home/yap zhan hong/category/Annisvesary sale.html" class="sub-nav-a">anniversary</a></li>
+                        <li><a href="/home/yap zhan hong/category/Mother's day.html" class="sub-nav-a" >mother's day</a></li>
+                        <li><a href="/home/yap zhan hong/category/Hari Raya.html" class="sub-nav-a">hari raya</a></li>
+                    </ul>
+                </li>
+                <li class="nav-a">budget
+                    <ul>
+                        <li><a href="/home/LAi/budget/BUDGET 100/budget.html" class="sub-nav-a">below 100</a></li>
+                        <li><a href="/home/LAi/budget/BUDGET 200/budget2.html" class="sub-nav-a">below 200</a></li>
+                        <li><a href="/home/LAi/budget/BUDGET 300/budget3.html" class="sub-nav-a">below 300</a></li>
+                        <li><a href="/home/LAi/budget/BUDGET ABOVE/budget4.html" class="sub-nav-a">300 and above</a></li>
+                    </ul>
+                </li>
+                <li class="nav-a">occasion
+                    <ul>
+                        <li><a href="/home/hongteck/html/birthday.html" class="sub-nav-a">birthday</a></li>
+                        <li><a href="/home/hongteck/html/graduation.html" class="sub-nav-a">graduation</a></li>
+                        <li><a href="/home/hongteck/html/wedding.html" class="sub-nav-a">wedding</a></li>
+                    </ul>
+                </li>
+                <li class="nav-a">special
+                    <ul>
+                        <li><a href="/home/yap zhan hong/category/Bestseller.html" class="sub-nav-a">bestseller</a></li>
+                        <li><a href="/home/yap zhan hong/category/Designer.html" class="sub-nav-a">Designer</a></li>
+                        <li><a href="/home/yap zhan hong/category/Eternity.html" class="sub-nav-a">Eternity</a></li>
+                        <li><a href="/home/yap zhan hong/category/Memento.html" class="sub-nav-a">memento</a></li>
+                    </ul>
+                </li>
+                <li class="nav-a"> <a href="/home/WEB assignment/category/category.html" class="linker">type of flower</a> 
+                    <ul>
+                        <li><a href="/home/WEB assignment/category/rose/rose.html" class="sub-nav-a">rose</a></li>
+                        <li><a href="/home/WEB assignment/category/gypsophila/gypsophila.html" class="sub-nav-a">gypsophila</a></li>
+                        <li><a href="/home/WEB assignment/category/hrdrange/hydrange.html" class="sub-nav-a">hydrangea</a></li>
+                        <li><a href="/home/WEB assignment/category/lily/lily.html" class="sub-nav-a">lily</a></li>
+                        <li><a href="/home/WEB assignment/category/lavender/lavender.html" class="sub-nav-a">lavender</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    </header>
+    <section>
+    <h1>Delivery Information</h1>
+    <hr style="border: 1px solid #ffcc99;margin-block-start: -1px;">
+    <h2>FREE STANDARD LOCAL SHIPPING</h2>
+    <p>Same-day deliveries are available from Mon - Sun for orders made by 3 pm within Kuala Lumpur, Selangor and Johor Bahru; Mon - Sat for orders made by 3 pm for Penang; while our subscription boxes are delivered weekly on Thursdays. Our standard delivery services are completed between 10 am - 6 pm. Unfortunately, time-specific deliveries are currently unavailable to ensure fairness to all our customers and maintain efficiency in our operations. Deliveries are available for any addresses within Kuala Lumpur, Selangor, Penang and Johor Bahru. However there is additional surcharge for delivery in Penang (Mainland) based on your delivery area that will automatically shown during checkout.</p>
+    <p>We recommend having the flowers delivered to an address where you or your recipient will be present on your delivery date to ensure flower freshness and avoid any unforeseen circumstances. Should you or your recipient fail to receive the flowers, a re-delivery service is available at an additional cost depending on your recipient's location. Our special delivery team will deliver your flowers by hand.</p>
+    <p>We take great pride in ensuring that our flowers are delivered on time and in great condition. However, if you ever face a problem or delay with your delivery, please reach out to our friendly customer service team at <a href="mailto:doraflorist@gmail.com">doraflorist@gmail.com</a> or call <a href="tel:0123456789">0123456789.</a></p>
+    <br>
+    <hr style="border: 1px solid #ffcc99;margin-block-start: -1px;">
+    <h3>SHIPPING RATE & DELIVERY</h3>
+    <table>
+        <tr>
+            <th>SERVICE</th>
+            <th>RATE</th>
+            <th>DELIVERY TIME</th>
+        </tr>
+        <tr>
+            <td>Standard Shipping</td>
+            <td>RM 10</td>
+            <td>3-5 Working Days</td>
+        </tr>
+    </table>
+    <h3>TAKE NOTE!</h3>
+    <p>*Order will be shipped within 3-5 working days of ordering.</p>
+    <p>**Please note that the delivery time is based on estimation only. We do not guarantee the delivery dates.</p>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-box">
+            
+            <div class="footer-1">
+                <h3 class="footer-title">about us</h3>
+                <span class="footer-link">
+                    <a href="http://">about</a>
+                    <a href="http://">career</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Info</h3>
+                <span class="footer-link">
+                        <a href="http://">News</a>
+                        <a href="http://">guides</a>
+                        <a href="http://">celebrations</a>
+                        <a href="http://">flower fact</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Help</h3>
+                <span class="footer-link">
+                    <a href="help.html">Contact</a>
+                    <a href="faq.html">FAQs</a>
+                    <a href="delivery.html">Delivery</a>
+                    <a href="trackorder.html">Tarck Order</a>
+                </span>
+            </div>
+            <div class="footer-1">
+                <h3 class="footer-title">Newsletter</h3>
+                <form action="">
+                    <label for="email">Sign up for news and exclusive deals & get 10% off your first order</label>
+                    <div><input type="email" name="email" id="email" placeholder="Enter your email address"></div>
+                    <div><input type="submit" value="Subscribe" id="sub"></div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="contact-box">
+            <p class="contact">Email: <a href="mailto:laimw-wm19@gmail.com"> Contact@DoraFlorist</a></p>
+            <p class="contact">Phone:<span class="phone">+60123456789</span></p>
+            <p class="contact">Chat:<a href=""> Talk to Us</a></p>
+            <p class="copyRight">© 2020 DORA FLORIST. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>      

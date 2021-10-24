@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- start -->
+    <title>DORA Florist</title>
+    <link rel="icon"  href="../../pictures/flower.png">
+    <script src="https://kit.fontawesome.com/9dd41de5d8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital@1&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="../INFOstyle/info_style.css">
+    <script type="text/javascript" src="../INFOstyle/info.js" async></script>
+</head>
+<body>
+    <header>
+        <a href="#"><i class="fas fa-angle-up fa-2x toTop"></i></a>
+    
+            <div id="nav">
+                <div id="promo-box">
+                        <h6 class="promo-bar">ANNIVERSARY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                        <h6 class="promo-bar" >HARI RAYA SALE : 15% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                        <h6 class="promo-bar">MOTHER'S DAY SALE : 10% OFF CAKES & BIRTHDAY PACKS UNTIL 30/4</h6>
+                </div>
+                <div class="nav-header">
+                    <a href="/home/index.html" id="title">DORA FLORIST</a>
+                    <div class="dummy">
+                        <span class="dot search" onclick="searchAppear()">
+                            
+                            <i class="fas fa-search fa-3x sub-search"></i>
+                            <div>
+                                <form action="/home/WEB assignment/search.html">
+                                    <div class="search-area">
+                                        <input type="search" id="search" name="search" value="" placeholder="Search">
+                                    </div>
+                                    <input type="submit" id="search-submit">
+                                    <div ondblclick="searchDisappear()">
+                                        <i class="fas fa-times fa-5x" id="close" ></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </span>
+                        <span class="dot user" onclick="noWorking('User Login')">
+                            <i class="fas fa-user fa-3x sub-user"></i>
+                        </span>
+                        
+                    </div>
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <li class="nav-a"> <a href="/home/index.html" class="linker"> home</a></li>
+                        <li class="nav-a"> <a href="/home/yap zhan hong/category/special.html" class="linker">special sales</a> 
+                            <ul>
+                                <li><a href="/home/yap zhan hong/category/Annisvesary sale.html" class="sub-nav-a">anniversary</a></li>
+                                <li><a href="/home/yap zhan hong/category/Mother's day.html" class="sub-nav-a" >mother's day</a></li>
+                                <li><a href="/home/yap zhan hong/category/Hari Raya.html" class="sub-nav-a">hari raya</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">budget
+                            <ul>
+                                <li><a href="/home/LAi/budget/BUDGET 100/budget.html" class="sub-nav-a">below 100</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET 200/budget2.html" class="sub-nav-a">below 200</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET 300/budget3.html" class="sub-nav-a">below 300</a></li>
+                                <li><a href="/home/LAi/budget/BUDGET ABOVE/budget4.html" class="sub-nav-a">300 and above</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">occasion
+                            <ul>
+                                <li><a href="/home/hongteck/html/birthday.html" class="sub-nav-a">birthday</a></li>
+                                <li><a href="/home/hongteck/html/graduation.html" class="sub-nav-a">graduation</a></li>
+                                <li><a href="/home/hongteck/html/wedding.html" class="sub-nav-a">wedding</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a">special
+                            <ul>
+                                <li><a href="/home/yap zhan hong/category/Bestseller.html" class="sub-nav-a">bestseller</a></li>
+                                <li><a href="/home/yap zhan hong/category/Designer.html" class="sub-nav-a">Designer</a></li>
+                                <li><a href="/home/yap zhan hong/category/Eternity.html" class="sub-nav-a">Eternity</a></li>
+                                <li><a href="/home/yap zhan hong/category/Memento.html" class="sub-nav-a">memento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-a"> <a href="/home/WEB assignment/category/category.html" class="linker">type of flower</a> 
+                            <ul>
+                                <li><a href="/home/WEB assignment/category/rose/rose.html" class="sub-nav-a">rose</a></li>
+                                <li><a href="/home/WEB assignment/category/gypsophila/gypsophila.html" class="sub-nav-a">gypsophila</a></li>
+                                <li><a href="/home/WEB assignment/category/hrdrange/hydrange.html" class="sub-nav-a">hydrangea</a></li>
+                                <li><a href="/home/WEB assignment/category/lily/lily.html" class="sub-nav-a">lily</a></li>
+                                <li><a href="/home/WEB assignment/category/lavender/lavender.html" class="sub-nav-a">lavender</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div id="title2">
+            <h1>NEWs</h1>
+        </div>
+    </header>
+
+
+    <section>
+    <div id="latest">
+        <div class="box1">
+            <div class="special-title-1">
+                <h2 class="sub-title">lastest news</h2>
+            </div>
+                <div class="container-1">
+                    <div class="sub-container-1">
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/bloomthis-message-from-ceo-01_400x.jpg?v=1585151463" alt="Sorry, something went wrong:3" />
+                        <h4>The Struggle with COVID-19</h4>
+                        <p>It’s hard to believe that the first quarter of 2020 isn’t even over. We’re only in mid-March and already, the year has thrown us a number of curveballs...</p>
+                        <a href="../News/information/news2.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/02_d33f8eff-5a05-4594-803c-ceecc593fff8_400x.jpg?v=1573533559" alt="Sorry, something went wrong:3" />
+                        <h4>There's More Than One Way to Celebrate Friendships with Flowers</h4>
+                        <p>International Friendship Day is a day to celebrate the friendships that we have, the girl friends in our lives. But this year, we also wanted to be...</p>
+                        <a href="../News/information/news3.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                    <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_f1a2ff3c-2e5f-49c4-bf8a-a419771e0629_400x.jpg?v=1571811992" alt="Sorry, something went wrong:3" />
+                    <h4>Pink October: Get a breast ultrasound exam this month</h4>
+                    <p>Pink October, also known as Breast Cancer Awareness Month is a worldwide campaign that takes place every October. Breast cancer is most commonly fo...                </p>
+                    <a href="../News/information/news4.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            
+                <div id="hidden-container">
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_180ca90e-f5c8-49ed-baba-6f0f33c0dd41_400x.jpg?v=1568883481" alt="Sorry, something went wrong:3" />
+                        <h4>This Malaysia Day, We Recall Six Moments That Restored Our Faith in Malaysians</h4>
+                        <p>In light of the recent Malaysia’s Day, we’d like to take you on a ride down memory lane on these six moments that united Malaysians regardless of r...</p>
+                        <a href="../News/information/news5.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/02_983af88b-1340-42a8-aa93-aa97ec73893d_400x.jpg?v=1553146988" alt="Sorry, something went wrong:3" />
+                        <h4>Spark Joy in Your Office or Home with These Live Plants</h4>
+                        <p>Adding a plant to your space -- whether at home or at work -- is like a breath of fresh air. A splash of colour against a white wall can make all t... </p>
+                        <a href="../News/information/news8.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/Feature_Image_400x.jpg?v=1551781446" alt="Sorry, something went wrong:3" />
+                        <h4>International Women's Day Collection 2019</h4>
+                        <p>Celebrate International Women's Day this year with our new mini bouquets! Get your BFFs, your mum and those who has inspired you in life these bouq...</p>
+                        <a href="../News/information/news9.html" class="btn">Read More</a>
+                    </div>
+                
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_c0459197-2ac6-4355-99c0-d7981bb66068_400x.jpg?v=1550635733" alt="Sorry, something went wrong:3" />
+                        <h4>Celebrate the beauty of otherness with Alien Flora Futura by MUGLER</h4>
+                        <p>Get a free sample of Alien Flora Futura by MUGLER from now till 10th March 2019 with ANY purchase from us while stocks last.</p>
+                        <a href="../News/information/news6.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_149b0c9a-6456-4650-8c67-3b55033f09c6_400x.jpg?v=1561449719" alt="Sorry, something went wrong:3" />
+                        <h4>Free Floral Workshop @ WeWork Creators Market, Plaza Equatorial Kuala Lumpur</h4>
+                        <p>Learn how to turn your dried flowers into gorgeous bouquets at the WeWork Creators Market this Saturday, where BloomThis will have a booth. We have...</p>
+                        <a href="../News/information/news7.html" class="btn">Read More</a>
+                    </div>
+                    <div class="container-a">
+                        <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_4978ce6a-20cc-49dc-a74e-e282e2315afb_400x.jpg?v=1541145512" alt="Sorry, something went wrong:3" />
+                        <h4>We found the perfect diamond for you!</h4>
+                        <p>Imagine your darling twirling a diamond ring that sparkles unabashedly with each speck of light; holding her bouquet of red roses as she "yes," ...</p>
+                        <a href="../News/information/news.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="latest-btn">
+            <button  onclick="myFunction2()">More..</button>
+        </div>
+
+        
+    </div>
+    </section>
+
+    <br />
+    <hr />
+    <br />  
+
+    <section>
+    <div class="special-title-2">
+            <h6 class="sub-pre-title">Previous news</h6>
+    </div>
+    <div id="previous">
+        
+        <div class="box1">
+            
+        <div class="container-2">
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_180ca90e-f5c8-49ed-baba-6f0f33c0dd41_400x.jpg?v=1568883481" alt="Sorry, something went wrong:3" />
+                <h4>This Malaysia Day, We Recall Six Moments That Restored Our Faith in Malaysians</h4>
+                <p>In light of the recent Malaysia’s Day, we’d like to take you on a ride down memory lane on these six moments that united Malaysians regardless of r...</p>
+                <a href="../News/information/news5.html" class="btn">Read More</a>
+            </div>
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/02_983af88b-1340-42a8-aa93-aa97ec73893d_400x.jpg?v=1553146988" alt="Sorry, something went wrong:3" />
+                        <h4>Spark Joy in Your Office or Home with These Live Plants</h4>
+                        <p>Adding a plant to your space -- whether at home or at work -- is like a breath of fresh air. A splash of colour against a white wall can make all t... </p>
+                        <a href="../News/information/news8.html" class="btn">Read More</a>
+            </div>
+            <div class="container-a">
+                    <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/Feature_Image_400x.jpg?v=1551781446" alt="Sorry, something went wrong:3" />
+                    <h4>International Women's Day Collection 2019</h4>
+                    <p>Celebrate International Women's Day this year with our new mini bouquets! Get your BFFs, your mum and those who has inspired you in life these bouq...</p>
+                    <a href="../News/information/news9.html" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/Feature_Image_400x.jpg?v=1551781446" alt="Sorry, something went wrong:3" />
+                        <h4>International Women's Day Collection 2019</h4>
+                        <p>Celebrate International Women's Day this year with our new mini bouquets! Get your BFFs, your mum and those who has inspired you in life these bouq...</p>
+                        <a href="../News/information/news9.html" class="btn">Read More</a>
+            </div>
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_149b0c9a-6456-4650-8c67-3b55033f09c6_400x.jpg?v=1561449719" alt="Sorry, something went wrong:3" />
+                        <h4>Free Floral Workshop @ WeWork Creators Market, Plaza Equatorial Kuala Lumpur</h4>
+                        <p>Learn how to turn your dried flowers into gorgeous bouquets at the WeWork Creators Market this Saturday, where BloomThis will have a booth. We have...</p>
+                        <a href="../News/information/news7.html" class="btn">Read More</a>
+            </div>
+            <div class="container-a">
+                <img src="https://cdn.shopify.com/s/files/1/0781/4423/articles/01_4978ce6a-20cc-49dc-a74e-e282e2315afb_400x.jpg?v=1541145512" alt="Sorry, something went wrong:3" />
+                        <h4>We found the perfect diamond for you!</h4>
+                        <p>Imagine your darling twirling a diamond ring that sparkles unabashedly with each speck of light; holding her bouquet of red roses as she "yes," ...</p>
+                        <a href="../News/information/news.html" class="btn">Read More</a>
+            </div>
+        </div>
+        </div>
+    </div>  
+    </section>
+    
+    <hr />
+    
+    <section>
+        <div class="big-box-2">
+        <div class=" box2">
+        <h4 class="sub-special-title">Spaecial</h4>
+            <div class="special-container">
+                <div class="container-c">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6Ooz1GZsQ70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="container-c">
+                    <h3 class="">Basic protective measures against the new coronavirus</h3>
+                    <ul>
+                        <li>Wash your hands frequently</li>
+                        <li>Maintain social distancing</li>
+                        <li>Avoid touching eyes, nose and...</li>
+                        <li>Practice respiratory hygiene</li>
+                        <li>If you have fever, cough and...</li>
+                        <li>Stay informed and follow advi...</li>
+                    </ul>
+                    <a href="../News/information/news10.html" id="special">more</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="knowledge">
+        <h3 class="sub-fact">learn</h1>
+        <h1 class="fact">Flowers knowledge</h1>
+
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">     
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Sorry, something went wrong:3" usemap="#flowers" />
+                            <map name="flowers">
+                                <area  shape="circle" coords="250,180,100" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Rose" >
+                            </map>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/1272574/pexels-photo-1272574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Sorry, something went wrong:3"usemap="#flowers2" />
+                            <map name="flowers2">
+                                <area  shape="rect" coords="0,100,500,500" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Lavandula" >
+                            </map>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/414510/pexels-photo-414510.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Sorry, something went wrong:3"  usemap="#flowers3"/>
+                            <map name="flowers3">
+                                <area  shape="circle" coords="250,180,125" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Hydrangea" >
+                            </map>
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <img src="https://images.pexels.com/photos/56905/pexels-photo-56905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" usemap="#flowers4" >
+                           <map name="flowers4">
+                                <area  shape="circle" coords="250,150,125" alt="" target="_blank" href="https://en.wikipedia.org/wiki/Lilium" >   
+                            </map>
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-box">
+            
+            <div class="footer-1">
+                <h3 class="footer-title">about us</h3>
+                <span class="footer-link">
+                    <a href="/home/WEB assignment/about.html">about</a>
+                    <a href="/home/WEB assignment/carrer.html">career</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Info</h3>
+                <span class="footer-link">
+                        <a href="/home/LAi/info/News/info.html">News</a>
+                        <a href="/home/LAi/info/GUIDE/info.html">guides</a>
+                        <a href="/home/LAi/info/CELEBRATION/info.html">celebrations</a>
+                        <a href="/home/LAi/info/FLOWER FACT/info.html">flower fact</a>
+                </span>
+            </div>
+
+            <div class="footer-1">
+                <h3 class="footer-title">Help</h3>
+                <span class="footer-link">
+                    <a href="/home/hongteck/html/help.html">Contact</a>
+                    <a href="/home/hongteck/html/faq.html">FAQs</a>
+                    <a href="/home/hongteck/html/delivery.html">Delivery</a>
+                    <a href="/home/hongteck/html/trackorder.html">Tarck Order</a>
+                </span>
+            </div>
+            <div class="footer-1">
+                <h3 class="footer-title">Newsletter</h3>
+                <form action="">
+                    <label for="email">Sign up for news and exclusive deals & get 10% off your first order</label>
+                    <div><input type="email" name="email" id="email" placeholder="Enter your email address"></div>
+                    <div><input type="submit" value="Subscribe" id="sub"></div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="contact-box">
+            <p class="contact">Email: <a href="mailto:laimw-wm19@gmail.com"> Contact@DoraFlorist</a></p>
+            <p class="contact">Phone:<span class="phone">+60123456789</span></p>
+            <p class="contact">Chat:<a href=""> Talk to Us</a></p>
+            <p class="copyRight">© 2020 DORA FLORIST. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
